@@ -1,0 +1,31 @@
+<html>
+    <head>
+		<title>Math Quiz</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Festive&family=Nanum+Pen+Script&family=Sacramento&family=Tillana:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+    <body>
+        <div class="container">
+            <h4 id="player_1_name"><span id="player_1_score"></span></h4>
+            <h4 id="player_2_name"><span id="player_2_score"></span></h4>
+            <center>
+                <h2 style="font-family: 'Festive', cursive;">Math Quiz</h2>
+                <h3 id="player_qestion"></h3>
+                <h3 id="player_answer"></h3>
+                <div id="output" class="col-lg-6"></div><br><br>
+                <label>First Number</label>
+                <input class="form-control" id="number" placeholder="Number"><br>
+                <label>Second Number</label>
+                <input class="form-control" id="number1" placeholder="Number"><br>
+                <button onclick="send()" class="btn btn-success" style="width: 30%;" style="font-family:  'Nanum Pen Script', cursive;;">Send</button>
+            </center>
+        </div>
+        <script src="game_quiz_page.js"></script>
+    </body>
+</html>

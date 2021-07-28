@@ -1,0 +1,54 @@
+body
+{
+	background: lavender;
+}
+
+.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        font-family: 'Sacramento', cursive;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+h1{
+    font-family: 'Festive', cursive;
+}
+
+#login_button{
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+h3 , #player_1_name , #player_2_name{
+	font-family: 'Tillana', cursive;
+}
+
+center{
+	font-family: 'Sacramento', cursive;
+}
+
+#number , #number1
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
